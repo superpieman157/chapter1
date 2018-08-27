@@ -15,6 +15,35 @@ public class TablesAndChairs {
 		System.out.println("X   X  X      X  X   X");
 		System.out.println("X   X  X      X  X   X");
 		System.out.println("X   X  X      X  X   X");
+		
+		displayTruck();
+		
+		System.out.println("  XXXXXXXXXXXXXXXXXXXXXX    ");
+		System.out.println("  X                    X    ");
+		System.out.println("  X                    XXXXXX");
+		System.out.println("  X                          XXX");
+		System.out.println("  X                             XXX");
+		System.out.println("  X XXXX                     XXXX X");
+		System.out.println("  XX    X                   X    XX");
+		System.out.println("  X      XXXXXXXXXXXXXXXXXXX      X");
+		System.out.println("   X    X                   X    X");
+		System.out.println("    XXXX                     XXXX ");
+
+
+
+
+
+
+
 	}
+   
+	
+	public static void displayTruck() {
+		
+		
+	}
+
+
+
 
 }
