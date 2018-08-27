@@ -1,6 +1,6 @@
 package Exersizes;
 
-public class Exersizes {
+public class TablesAndChairs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
