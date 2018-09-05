@@ -8,13 +8,19 @@ public class PopupGame {
 		
 		Scanner input = new Scanner(System.in);
 		
-		String result;
+		int result;
 		
 		String HelloName;
 		
-        result = JOptionPane.showInputDialog(null, "Hello, How Are You?");
+		boolean isGood;
+		
+		boolean isBad;
+		
+        result = JOptionPane.showConfirmDialog(null, "Hello, How Are You? Yes Is Good, No Is Bad");
+        isGood = (result == JOptionPane.YES_OPTION);
+        isBad = (result == JOptionPane.NO_OPTION);
         
-        JOptionPane.showMessageDialog(null, "That's " + result + "!");
+        
         
        HelloName = JOptionPane.showInputDialog(null,
         "What Is Your Name?",
