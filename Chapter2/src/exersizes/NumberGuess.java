@@ -15,7 +15,7 @@ public class NumberGuess {
         
         int Difference = random - Guess;
         
-        System.out.println(random);
+        System.out.println("The Number Was " + random);
         
         System.out.println("The Difference Between Your Guess And The Number Was " + Difference);
 	}
